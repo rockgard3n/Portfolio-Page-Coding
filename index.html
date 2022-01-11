@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Liam Cashel">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Coding Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+    <!-- CSS only (below imports the bootstrap CSS so we can use it fam)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Liam, a Product Manager at EY, specializes in leading products from concept-to-launch for a variety of clients in the financial services industry. Recognizing that an excelent PM is equiped with strong techincal fluency, Liam is engaged in MITs 32 week intensive Fullstack coding bootcamp to build on his existing knowledge earned through a double major in Mathematics and Finance from the College of William and Mary.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/liam-cashel/" class="text-white">LinkedIn</a></li>
+            <li><a href="https://github.com/rockgard3n" class="text-white">Github</a></li>
+            <li><a href="#" class="text-white">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>Liam Cashel</strong>
+      </a>
+      <!-- Below is to create the links/dropdowns in the navbar-->
+        <ul class="navbar me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://rockgard3n.github.io">Home</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portfolios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Coding</a></li>
+              <li><a class="dropdown-item" href="#">Product</a></li>
+            </ul>
+          </li>
+        </ul>
+
+    
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+
+<main>
+  <section class="album py-5 bg-light">
+
+    <div class="row py-md-2">
+      <div class="col-lg-6 col-md-8 mx-auto text-center">
+            <h1 class="fw-light">Coding Portfolio</h1>
+        </div>
+        <div></div>
+        <div class="col-lg-7 col-md-8 mx-auto">
+            <p class="lead text-muted">Below you can find a collection of projects that demonstrate the different skills and topics I have worked on. Each 'card' below shows a screenshot of the project, a brief description, a link to the projects Github repository and a link to see the code in action.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- this covers all the cards-->
+  <div class="album py-5 bg-medium">
+    <div class="container">
+      <div class="row g-4">
+
+          <!--Left Justified Card-->
+        <div class="col-md-11">
+          <div class="card shadow-sm mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                      <rect width="100%" height="100%" fill="#55595c"/>
+                      <image href="TrackShot.png" width="100%" height="275"/>
+                    </svg>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">SFMTA Bus Tracker</h5>
+                        <p class="card-text">Currently in San Francisco and wondering where your bus is? Load up this site, select your route and see the live location of any SFMTA bus! This project was an interesting excercise in implementing multiple APIs, navigating external services, and utilizing asynchronous functions all to address a real world painpoint of many SF residents.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusButton">Find your Bus!</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("BusButton").onclick = function () {
+                                  window.open("https://rockgard3n.github.io/SFMTAtracker/", "_blank");
+                              };
+                            </script>
+
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusRepo">View Repository</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("BusRepo").onclick = function () {
+                                  window.open("https://github.com/rockgard3n/SFMTAtracker", "_blank");
+                              };
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-1"></div>
+
+        <!--Right Justified Card-->
+        <div class="col-md-11">
+            <div class="card shadow-sm mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">PacMen Generator</h5>
+                        <p class="card-text">Feeling the need to waste time on a site with truly no practical purpose? Then this is the perfect project for you! My PacMen project lets users add as many PacMen as they would like to the page then users can initiate the PacMen and watch them chomp and bounce all around the screen. I accomplished this by manipulating the DOM, utilizing setTimeout() and creating an edge detection function. 
+
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="PacButton">Play with PacMan!</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("PacButton").onclick = function () {
+                                  window.open("https://rockgard3n.github.io/PacManMIT/", "_blank");
+                              };
+                            </script>
+
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="PacRepo">View Repository</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("PacRepo").onclick = function () {
+                                  window.open("https://github.com/rockgard3n/PacManMIT", "_blank");
+                              };
+                            </script>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                  <rect width="100%" height="100%" fill="#55595c"/>
+                  <image href="PacMen.png" width="100%" height="275"/>
+                </svg>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left Justified-->
+          <div class="col-md-11">
+            <div class="card shadow-sm mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"/>
+                        <image href="eyes.png" width="100%" height="250"/>
+                      </svg>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Creepy Eyes</h5>
+                          <p class="card-text">When I was a kid my Dad had a painting of George Washington and his eyes always seemed to follow you, it was creepy. This is worse. Utilizing CSS grid and the DOM this project creates two eyes that follow a users mouse around the window. I find it offputing.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="EyesButton">See some spooky eyes!</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("EyesButton").onclick = function () {
+                                    window.open("https://rockgard3n.github.io/CreepyEyes/", "_blank");
+                                };
+                              </script>
+  
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="EyesRepo">View Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("EyesRepo").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/CreepyEyes", "_blank");
+                                };
+                              </script>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-1"></div>
+  
+          <div class="col-md-1"></div>
+
+                  <!--Right Justified Card-->
+        <div class="col-md-11">
+            <div class="card shadow-sm mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">General MIT Bootcamp Coursework</h5>
+                        <p class="card-text">There are many minor assignments that are not expansive enough to include in this portfolio. However, as a collection these minor assignments represent hundreds of hours of work and illustrate my learning progression. I have segmented the repository by week and each week contains various practice exercises and a summary of the topics covered. 
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="MITRepo">View Repository</button>
+
+                            <script type="text/javascript">
+                              document.getElementById("MITRepo").onclick = function () {
+                                  window.open("https://github.com/rockgard3n/MIT_Bootcamp", "_blank");
+                              };
+                            </script>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                  <rect width="100%" height="100%" fill="#55595c"/>
+                  <image href="PacMen.png" width="100%" height="275"/>
+                </svg>
+              </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5 bg-dark">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+ <!-- JavaScript Bundle with Popper, Best practice to call at bottom so page can load faster -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+      
+  </body>
+</html>
