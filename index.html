@@ -92,36 +92,122 @@
       <div class="row g-4">
 
           <!--Left Justified Card-->
+          <div class="col-md-11">
+            <div class="card shadow-sm mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"/>
+                        <image href="TrackShot.png" width="100%"  position="absolute"/>
+                      </svg>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">SFMTA Bus Tracker</h5>
+                          <p class="card-text">Currently in San Francisco and wondering where your bus is? Load up this site, select your route and see the live location of any SFMTA bus! This project was an interesting excercise in implementing multiple APIs, navigating external services, and utilizing asynchronous functions all to address a real world painpoint of many SF residents.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="BusButton">Find your Bus!</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("BusButton").onclick = function () {
+                                    window.open("https://rockgard3n.github.io/SFMTAtracker/", "_blank");
+                                };
+                              </script>
+  
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="BusRepo">View Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("BusRepo").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/SFMTAtracker", "_blank");
+                                };
+                              </script>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-1"></div>
+  
+          <div class="col-md-1"></div>
+  
+          <!--Right Justified Card-->
+          <div class="col-md-11">
+              <div class="card shadow-sm mb-3">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Binary Search Trees</h5>
+                          <p class="card-text">Using Python and need a data structure that gives you guaranteed O(Logn) performance? Feel free to fork this repository and use either my balanced or unbalanced binary search tree classes. For laymen, a binary search tree (BST) is comprised of nodes. Each node has two children. The left child is less than the parent. The right child is greater than the parent.
+                          
+                          </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="BalRepo">View Balanced Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("BalRepo").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/Data-Structures/tree/main/Binary_Search_Tree_Balanced", "_blank");
+                                };
+                              </script>
+  
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="UnBalRepo">View Unbalanced Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("UnBalRepo").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/Data-Structures/tree/main/Binary_Search_Tree_Unbalanced", "_blank");
+                                };
+                              </script>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                    <rect width="100%" height="100%" fill="#FFFFFF"/>
+                    <image href="balanced-tree.png" width="100%"  position="absolute"/>
+                  </svg>
+                </div>
+                </div>
+              </div>
+            </div>
+
+          <!--Left Justified Card-->
         <div class="col-md-11">
           <div class="card shadow-sm mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
                       <rect width="100%" height="100%" fill="#55595c"/>
-                      <image href="TrackShot.png" width="100%"  position="absolute"/>
+                      <image href="PacMen.png" width="100%"  position="absolute"/>
                     </svg>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">SFMTA Bus Tracker</h5>
-                        <p class="card-text">Currently in San Francisco and wondering where your bus is? Load up this site, select your route and see the live location of any SFMTA bus! This project was an interesting excercise in implementing multiple APIs, navigating external services, and utilizing asynchronous functions all to address a real world painpoint of many SF residents.</p>
-                        <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="card-title">PacMen Generator</h5>
+                      <p class="card-text">Feeling the need to waste time on a site with truly no practical purpose? Then this is the perfect project for you! My PacMen project lets users add as many PacMen as they would like to the page then users can initiate the PacMen and watch them chomp and bounce all around the screen. I accomplished this by manipulating the DOM, utilizing setTimeout() and creating an edge detection function. 
+
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusButton">Find your Bus!</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="PacButton">Play with PacMan!</button>
 
-                            <script type="text/javascript">
-                              document.getElementById("BusButton").onclick = function () {
-                                  window.open("https://rockgard3n.github.io/SFMTAtracker/", "_blank");
-                              };
-                            </script>
-
-                            <button type="button" class="btn btn-sm btn-outline-secondary" id="BusRepo">View Repository</button>
-
-                            <script type="text/javascript">
-                              document.getElementById("BusRepo").onclick = function () {
-                                  window.open("https://github.com/rockgard3n/SFMTAtracker", "_blank");
-                              };
-                            </script>
+                              <script type="text/javascript">
+                                document.getElementById("PacButton").onclick = function () {
+                                    window.open("https://rockgard3n.github.io/PacManMIT/", "_blank");
+                                };
+                              </script>
+  
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="PacRepo">View Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("PacRepo").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/PacManMIT", "_blank");
+                                };
+                              </script>
                         </div>
                     </div>
                 </div>
@@ -140,27 +226,20 @@
               <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">PacMen Generator</h5>
-                        <p class="card-text">Feeling the need to waste time on a site with truly no practical purpose? Then this is the perfect project for you! My PacMen project lets users add as many PacMen as they would like to the page then users can initiate the PacMen and watch them chomp and bounce all around the screen. I accomplished this by manipulating the DOM, utilizing setTimeout() and creating an edge detection function. 
-
+                        <h5 class="card-title">Deques: a data structure I know how to use, but not how to pronounce</h5>
+                        <p class="card-text">Deques are double queues and are defined by having at minimum the ability to push, pop and peek from both ends of the structure. In this repository I created a deque class for Python and a few other related classes. I then used these classes to recursively solve the Tower of Hanoi problem. I also created a program that checks my code to ensure I have balanced delimiters, which is really quite helpful. 
                         </p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary" id="PacButton">Play with PacMan!</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="DeqRepo">View Repository</button>
 
                             <script type="text/javascript">
-                              document.getElementById("PacButton").onclick = function () {
-                                  window.open("https://rockgard3n.github.io/PacManMIT/", "_blank");
+                              document.getElementById("DeqRepo").onclick = function () {
+                                  window.open("https://github.com/rockgard3n/Data-Structures/tree/main/Deque_Hanoi_%26_DelimiterChecks", "_blank");
                               };
                             </script>
 
-                            <button type="button" class="btn btn-sm btn-outline-secondary" id="PacRepo">View Repository</button>
-
-                            <script type="text/javascript">
-                              document.getElementById("PacRepo").onclick = function () {
-                                  window.open("https://github.com/rockgard3n/PacManMIT", "_blank");
-                              };
-                            </script>
+                            
                         </div>
                     </div>
                 </div>
@@ -168,13 +247,15 @@
               <div class="col-md-4">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
                   <rect width="100%" height="100%" fill="#55595c"/>
-                  <image href="PacMen.png" width="100%"  position="absolute"/>
+                  <image href="HanoiGif.gif" width="100%"  position="absolute"/>
                 </svg>
               </div>
               </div>
             </div>
           </div>
 
+
+          
           <!-- Left Justified-->
           <div class="col-md-11">
             <div class="card shadow-sm mb-3">
@@ -206,6 +287,78 @@
                                     window.open("https://github.com/rockgard3n/CreepyEyes", "_blank");
                                 };
                               </script>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-1"></div>
+  
+          <div class="col-md-1"></div>
+
+        <!--Right Justified Card-->
+        <div class="col-md-11">
+          <div class="card shadow-sm mb-3">
+            <div class="row g-0">
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">"Joe, its life or death!" - Josephus's buddy probably</h5>
+                      <p class="card-text">Imagine you're in a circle of N people and theres a maniac in the middle shooting every M'th guy. This continues until only one person's left. Well that’s the Josephus problem! (and the plot of season 2 of squid games) In order to survive I created a Linked List class in python to solve the problem.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary" id="JoeRepo">View Repository</button>
+
+                          <script type="text/javascript">
+                            document.getElementById("JoeRepo").onclick = function () {
+                                window.open("https://github.com/rockgard3n/Data-Structures/tree/main/Josephus_with_LinkedList", "_blank");
+                            };
+                          </script>
+
+                          
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                <rect width="100%" height="100%" fill="#55595c"/>
+                <image href="Joe.jpeg" width="100%"  position="absolute"/>
+              </svg>
+            </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- Left Justified-->
+          <div class="col-md-11">
+            <div class="card shadow-sm mb-3">
+              <div class="row g-0">
+                  <div class="col-md-4">
+                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bus: Thumbnail" focusable="false">
+                        <rect width="100%" height="100%" fill="#FFFFFF"/>
+                        <image href="AscendingValues.jpeg" width="100%"  position="absolute"/>
+                      </svg>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Out of Sorts</h5>
+                          <p class="card-text">Not even going to try to make this blurb fun. This one was all about the SCIENCE. Investigated the relative performance of Selection Sort vs Insertion Sort methods in python. I ran the comparison on Ascending, Descending and Random lists. This was a great first step into BigO concepts, check out the ReadMe file in the repository to see my findings. 
+                            </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary" id="Sorts">View Repository</button>
+  
+                              <script type="text/javascript">
+                                document.getElementById("Sorts").onclick = function () {
+                                    window.open("https://github.com/rockgard3n/Data-Structures/tree/main/Selection_vs_Insertion_Sort", "_blank");
+                                };
+                              </script>
+  
+                    
                           </div>
                       </div>
                   </div>
